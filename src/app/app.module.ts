@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
-import { AuthComponent } from './guard/auth/auth.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
@@ -16,7 +15,6 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    AuthComponent,
     ProfileComponent,
     ProductsComponent,
     ShoppingCartComponent,
